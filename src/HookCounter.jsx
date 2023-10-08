@@ -1,9 +1,18 @@
 import React from 'react'
+import { useState } from 'react'
 
-const HookCounter = () => {
-  return (
-    <div>HookCounter</div>
-  )
+// Hooks will allow stateless functional components to act like Stateful class components
+export default function HookCounter(props) {
+// count: a new state property
+// setCount: method to update the count
+// useState(0) - Initialize count at 0 kinda like writing let count = 0;
+
+    const [count, setCount] = useState(0)
+    return (
+        <div className='greeting'>
+            <h1>Hello {props.name}, I am a functional Hook component!</h1>
+            <h2>You have clicked the counter {count} times.</h2>
+            <button onClick={() => setCount(count => count + 1)}>This button is, onClick, setting the count on each press</button>
+        </div>
+    )
 }
-
-export default HookCounter

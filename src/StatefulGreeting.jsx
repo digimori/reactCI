@@ -1,9 +1,12 @@
 import React from 'react'
 
+//Stateful class components are generally used for interactivity
+
 export default class StatefulGreeting extends React.Component {
   constructor(props) {
     //super(props) calls the constructor
     super(props);
+    //Initial state count
     this.state = {
       count: 0
     };
