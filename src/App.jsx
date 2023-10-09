@@ -8,9 +8,7 @@ function App() {
 
   return (
       <div>
-        <StatefulGreeting name="Ginny" />
-        <FunctionalGreeting name="Cee" />
-        <HookCounter name="John" />
+        Are we working?
       </div>
   )
 }

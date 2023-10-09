@@ -6,6 +6,7 @@ export default function HookCounter(props) {
 // count: a new state property
 // setCount: method to update the count
 // useState(0) - Initialize count at 0 kinda like writing let count = 0;
+//This pretty much eliminates the need for the constructor/super methods.
 
     const [count, setCount] = useState(0)
     return (
