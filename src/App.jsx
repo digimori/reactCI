@@ -3,7 +3,7 @@ import css from './App.module.css';
 import FunctionalGreeting from './components/FunctionalGreeting'
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
-import StatefulGreeting from './components/StatefulGreeting';
+import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <div className={css.App}>
         <Sidebar />
         <Navbar />
-        <StatefulGreeting greeting="Yellow!" />
+        <StatefulGreetingWithPrevState />
         {/*<FunctionalGreeting greeting="Heeeeey" name="Cee" age="31" />*/}
 
       </div>
