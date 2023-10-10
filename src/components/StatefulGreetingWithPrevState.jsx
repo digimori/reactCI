@@ -11,21 +11,23 @@ class StatefulGreeting extends React.Component {
     }
 
     handleClick() {
-        this.setState({
-            introduction: this.state.introduction === "Hello" ? "Goodbye" : "Hello",
-            buttonText: this.state.buttonText === "Exit" ? "Enter" : "Exit",
-        }), ()=>{
-            console.log("New state", this.state.introduction)
-        }
+        this.setState((prevState, prevProps) => {
+            return {
+                introduction: prevState.introduction === "Hello" ? "Goodbye" : "Hello",
+                buttonText: prevState.buttonText === "Exit" ? "Enter" : "Exit"
+            }
+        })
     }
 
     handleIncrement() {
-        this.setState({
-            incrementText: this.state.incrementText + 1,
-        }), ()=>{
-            console.log("Increment", this.state.increment)
+        this.setState((prevState, prevProps) => {
+            console.log("Previous state:", prevState),
+            console.log("Previous props:", prevProps)
+            return {
+                incrementText: prevState.incrementText + 1
+            }
+        })
         }
-    }
     
     render() {
         return (
