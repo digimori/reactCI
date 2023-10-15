@@ -9,15 +9,18 @@ import EventsFunctional from './components/EventsFunctional';
 import EventBinding from './components/EventBinding';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import NestedComponents from './components/NestedComponents';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <ConditionalRenderingClass isLoaded={false} />
+        <NestedComponents />
+        {/*<ConditionalRenderingClass isLoaded={false} />
         <ConditionalRenderingFunctional connected={false} />
-       {/* <Sidebar />
+        
+        <Sidebar />
         <NavBarSimple />
     <EventsClass />
     <EventsFunctional />
