@@ -10,14 +10,17 @@ import EventBinding from './components/EventBinding';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 import NestedComponents from './components/NestedComponents';
+import MethodsAsPropsChild from './components/MethodsAsPropsChild';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 
 function App() {
 
   return (
       <div className={css.App}>
+        {/*<MethodsAsPropsParent />
         <NestedComponents />
-        {/*<ConditionalRenderingClass isLoaded={false} />
+        <ConditionalRenderingClass isLoaded={false} />
         <ConditionalRenderingFunctional connected={false} />
         
         <Sidebar />
