@@ -13,15 +13,17 @@ import NestedComponents from './components/NestedComponents';
 import MethodsAsPropsChild from './components/MethodsAsPropsChild';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import NavBarForm from './components/NavBarForm';
+import RenderingLists from './components/RenderingLists';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <NavBarForm />
+        <RenderingLists />
+        {/*<NavBarForm />
         <Sidebar />
-        {/*<MethodsAsPropsParent />
+        <MethodsAsPropsParent />
         <NestedComponents />
         <NavBarSimple />
         <ConditionalRenderingClass isLoaded={false} />
