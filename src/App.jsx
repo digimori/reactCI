@@ -12,19 +12,22 @@ import ConditionalRenderingFunctional from './components/ConditionalRenderingFun
 import NestedComponents from './components/NestedComponents';
 import MethodsAsPropsChild from './components/MethodsAsPropsChild';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import NavBarForm from './components/NavBarForm';
 
 
 function App() {
 
   return (
       <div className={css.App}>
+        <NavBarForm />
+        <Sidebar />
         {/*<MethodsAsPropsParent />
         <NestedComponents />
+        <NavBarSimple />
         <ConditionalRenderingClass isLoaded={false} />
         <ConditionalRenderingFunctional connected={false} />
         
-        <Sidebar />
-        <NavBarSimple />
+        
     <EventsClass />
     <EventsFunctional />
         {/*<StatefulGreetingWithPrevState />
