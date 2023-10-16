@@ -15,16 +15,18 @@ import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import NavBarForm from './components/NavBarForm';
 import RenderingLists from './components/RenderingLists';
 import Content from './components/Content';
+import Clock from './components/ComponentLifecycleExample';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <NavBarForm />
+        <Clock />
+        {/*<NavBarForm />
         <Sidebar />
        <Content />
-        {/*<RenderingLists />
+        <RenderingLists />
        
         <MethodsAsPropsParent />
         <NestedComponents />
