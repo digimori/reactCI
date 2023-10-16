@@ -1,16 +1,31 @@
 import React from 'react'
+import Book from './Book'
 
-function RenderingLists() {
-    const bookList = [
-        'To kill a mockingbird',
-        'Kafka on the shore',
-        'Keep the Aspidistra Flying'
-    ]
+function RenderingLists(props) {
+    const bookObject = [{
+        title: 'Gyo',
+        author: 'Junji Ito',
+        noOfPages: 405
+    },
+{
+    title: 'To kill a mockingbird',
+    author: 'Harper Lee',
+    noOfPages: 281
+},
+{
+    title: 'Windup bird chronicle',
+    author: 'Haurki Murakami',
+    noOfPages: 607
+}]
+
+
   return (
     <div>
-        {bookList.map(
+        {bookObject.map(
             book => {
-                return <h2>{book}</h2>
+                return (
+                    <Book key={book.title} book={book}/>
+                        )
             }
         )}
 
