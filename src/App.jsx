@@ -14,15 +14,18 @@ import MethodsAsPropsChild from './components/MethodsAsPropsChild';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import NavBarForm from './components/NavBarForm';
 import RenderingLists from './components/RenderingLists';
+import Content from './components/Content';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <RenderingLists />
-        {/*<NavBarForm />
+        <NavBarForm />
         <Sidebar />
+       <Content />
+        {/*<RenderingLists />
+       
         <MethodsAsPropsParent />
         <NestedComponents />
         <NavBarSimple />
