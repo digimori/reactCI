@@ -17,14 +17,16 @@ import RenderingLists from './components/RenderingLists';
 import Content from './components/Content';
 import Clock from './components/ComponentLifecycleExample';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <LifeCyclesCDM />
-        {/*<Clock />
+        <LifeCyclesCDU />
+        {/*<LifeCyclesCDM />
+        <Clock />
         <NavBarForm />
         <Sidebar />
        <Content />
