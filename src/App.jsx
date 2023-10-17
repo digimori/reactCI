@@ -25,13 +25,14 @@ function App() {
 
   return (
       <div className={css.App}>
-        <LifeCyclesCWU />
-        {/*<LifeCyclesCDU />
-        <LifeCyclesCDM />
-        <Clock />
         <NavBarForm />
         <Sidebar />
        <Content />
+        {/*<LifeCyclesCWU />
+        <LifeCyclesCDU />
+        <LifeCyclesCDM />
+        <Clock />
+       
         <RenderingLists />
        
         <MethodsAsPropsParent />
