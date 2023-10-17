@@ -18,14 +18,16 @@ import Content from './components/Content';
 import Clock from './components/ComponentLifecycleExample';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <LifeCyclesCDU />
-        {/*<LifeCyclesCDM />
+        <LifeCyclesCWU />
+        {/*<LifeCyclesCDU />
+        <LifeCyclesCDM />
         <Clock />
         <NavBarForm />
         <Sidebar />
