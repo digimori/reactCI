@@ -28,12 +28,13 @@ function App() {
 
   return (
       <div className={css.App}>
-        <SearchBar />
-        {/*<UncontrolledForm />
-        <ControlledForm />
         <NavBarForm />
         <Sidebar />
        <Content />
+        {/*<SearchBar />
+        <UncontrolledForm />
+        <ControlledForm />
+        
         <LifeCyclesCWU />
         <LifeCyclesCDU />
         <LifeCyclesCDM />
