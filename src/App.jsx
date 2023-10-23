@@ -22,19 +22,23 @@ import LifeCyclesCWU from './components/LifeCyclesCWU';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import SearchBar from './components/SearchBar';
+import ClassCounter from './components/ClassCounter';
+import HookCounter from './components/HookCounter';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <NavBarForm />
+        <ClassCounter />
+        <HookCounter />
+
+        {/*<NavBarForm />
         <Sidebar />
        <Content />
-        {/*<SearchBar />
+        <SearchBar />
         <UncontrolledForm />
         <ControlledForm />
-        
         <LifeCyclesCWU />
         <LifeCyclesCDU />
         <LifeCyclesCDM />
