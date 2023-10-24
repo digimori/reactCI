@@ -26,14 +26,16 @@ import ClassCounter from './components/ClassCounter';
 import HookCounter from './components/HookCounter';
 import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <UseStateWithArrays />
-       {/* <ControlledFormHooks />
+        <UseStateWithObjects />
+        {/*<UseStateWithArrays />
+        <ControlledFormHooks />
         <ClassCounter />
         <HookCounter />
 
