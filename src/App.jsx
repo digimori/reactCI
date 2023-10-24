@@ -25,14 +25,16 @@ import SearchBar from './components/SearchBar';
 import ClassCounter from './components/ClassCounter';
 import HookCounter from './components/HookCounter';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <ControlledFormHooks />
-        {/*<ClassCounter />
+        <UseStateWithArrays />
+       {/* <ControlledFormHooks />
+        <ClassCounter />
         <HookCounter />
 
         <NavBarForm />
