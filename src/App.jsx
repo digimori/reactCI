@@ -24,16 +24,18 @@ import UncontrolledForm from './components/UncontrolledForm';
 import SearchBar from './components/SearchBar';
 import ClassCounter from './components/ClassCounter';
 import HookCounter from './components/HookCounter';
+import ControlledFormHooks from './components/ControlledFormHooks';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <ClassCounter />
+        <ControlledFormHooks />
+        {/*<ClassCounter />
         <HookCounter />
 
-        {/*<NavBarForm />
+        <NavBarForm />
         <Sidebar />
        <Content />
         <SearchBar />
