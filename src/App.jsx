@@ -28,14 +28,16 @@ import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArrays from './components/UseStateWithArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './UseEffectCounter';
+import UseEffectCounterContainer from './UseEffectCounterContainer';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <UseEffectCounter />
-       {/* <UseStateWithObjects />
+        <UseEffectCounterContainer />
+        {/*<UseEffectCounter />
+        <UseStateWithObjects />
         <UseStateWithArrays />
         <ControlledFormHooks />
         <ClassCounter />
