@@ -29,24 +29,26 @@ import UseStateWithArrays from './components/UseStateWithArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './UseEffectCounter';
 import UseEffectCounterContainer from './UseEffectCounterContainer';
+import ContentHooks from './components/ContentHooks';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <UseEffectCounterContainer />
-        {/*<UseEffectCounter />
+        <NavBarForm />
+        <Sidebar />
+        <ContentHooks />
+        
+         {/* <SearchBar />
+       <UseEffectCounterContainer />
+       <UseEffectCounter />
         <UseStateWithObjects />
         <UseStateWithArrays />
         <ControlledFormHooks />
         <ClassCounter />
         <HookCounter />
-
-        <NavBarForm />
-        <Sidebar />
        <Content />
-        <SearchBar />
         <UncontrolledForm />
         <ControlledForm />
         <LifeCyclesCWU />
