@@ -31,14 +31,16 @@ import UseEffectCounter from './UseEffectCounter';
 import UseEffectCounterContainer from './UseEffectCounterContainer';
 import ContentHooks from './components/ContentHooks';
 import HttpRequests from './components/HttpRequests';
+import HttpPost from './components/HttpPost';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <HttpRequests />
-         {/*<NavBarForm />
+        <HttpPost />
+        {/*<HttpRequests />
+         <NavBarForm />
         <Sidebar />
         <ContentHooks />
         
