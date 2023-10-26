@@ -30,17 +30,19 @@ import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './UseEffectCounter';
 import UseEffectCounterContainer from './UseEffectCounterContainer';
 import ContentHooks from './components/ContentHooks';
+import HttpRequests from './components/HttpRequests';
 
 
 function App() {
 
   return (
       <div className={css.App}>
-        <NavBarForm />
+        <HttpRequests />
+         {/*<NavBarForm />
         <Sidebar />
         <ContentHooks />
         
-         {/* <SearchBar />
+         <SearchBar />
        <UseEffectCounterContainer />
        <UseEffectCounter />
         <UseStateWithObjects />
